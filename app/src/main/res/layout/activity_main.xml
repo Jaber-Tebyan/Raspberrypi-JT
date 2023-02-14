@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:subtitleTextColor="@android:color/background_light"
+        app:title="Jaber Tebyan"
+        app:titleTextColor="@android:color/background_light"
+        />
+
+
+    <ListView
+        android:id="@+id/pairedDevices_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="100dp"
+        android:paddingLeft="20dp"
+
+        android:paddingRight="20dp"
+        android:scrollbarSize="10dp"
+        android:scrollbars="vertical|horizontal">
+
+
+    </ListView>
+
+
+</RelativeLayout>
